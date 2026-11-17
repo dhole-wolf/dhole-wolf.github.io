@@ -1,0 +1,189 @@
+# 网站文字。只修改冒号后面的文字，保留左侧的名称。
+# 多行文字缩进两个空格；段落之间可以留空行。
+
+# 界面提示 · 跳至内容链接
+"home.skip": "跳至内容"
+
+# 站名与简介 · 页头站名
+"home.siteName": "Mr.Dhole 的空间"
+
+# 站名与简介 · 页头说明
+"home.brandCaption": "他从灰烬中再生，在平常的秋天"
+
+# 站名与简介 · 关于我入口
+"home.about": "关于豺"
+
+# 站名与简介 · 个人简介
+"home.profileNote": "我们常常记得..."
+
+# 站名与简介 · 导航上方文字
+"home.navigationLabel": "在这里逛逛"
+
+# 站名与简介 · 左侧底部文字
+"home.sidebarNote": "不定期更新中"
+
+# 开场 · 开场上方小字
+"home.welcomeLabel": "这是祂所许诺的自由地，祂使我们在这里歌唱"
+
+# 开场 · 开场大标题
+"home.greeting": "所守或匪亲，化为？"
+
+# 开场 · 开场介绍
+"home.welcomeCopy": |
+  我是豺狼，一只自由的红毛狗
+
+# 开场 · 开场关键词
+"home.welcomeTopics": "他呀？他坚忍不拔，就像泰加林中的雪松。"
+
+# 开场 · 浏览内容按钮
+"home.browse": "随便逛逛"
+
+# 开场 · 插画下方文字
+"home.deskCaption": "整合人上整合课，得整合学位享整合人生"
+
+# 界面提示 · 搜索框说明
+"home.searchLabel": "搜索学习资料和课程"
+
+# 界面提示 · 清除搜索按钮
+"home.clearSearch": "清除"
+
+# 书签与侧栏 · 书签区标题
+"home.bookmarksTitle": "书签架"
+
+# 书签与侧栏 · 书签区说明
+"home.bookmarksDescription": "几份可以直接翻开的公开资料"
+
+# 书签与侧栏 · RDKit 书签说明
+"home.rdkitLabel": "Python 入门文档"
+
+# 书签与侧栏 · PyTorch 书签说明
+"home.pytorchLabel": "官方教程"
+
+# 书签与侧栏 · D2L 书签名称
+"home.d2lLabel": "动手学深度学习"
+
+# 书签与侧栏 · D2L 书签说明
+"home.openBook": "开放教材"
+
+# 书签与侧栏 · 右侧底部文字
+"home.littleNote": |-
+  有些想法需要认真写，
+  有些东西只负责好玩。
+
+# 站名与简介 · 页脚说明
+"home.footerText": "一个持续生长的小站"
+
+# 界面提示 · 回到开场按钮
+"home.backTop": "回到开场"
+
+# 界面提示 · 关闭阅读按钮
+"home.close": "关闭"
+
+# 站名与简介 · 显示名字
+"shared.name": "Mr.Dhole"
+
+# 站名与简介 · 别名
+"shared.alias": "豺狼先生"
+
+# 页面标题 · 浏览器标签标题
+"home.metaTitle": "Mr.Dhole（豺狼先生）的休憩处"
+
+# 页面标题 · 网页简介
+"home.metaDescription": "Mr.Dhole（豺狼先生）的个人小站：学习资料、课程资源、闲谈，还有一个叫「道在屎溺」的角落。"
+
+# 界面提示 · 搜索框占位文字
+"home.searchPlaceholder": "找点什么？试试 Python、课程……"
+
+# 独立入口 · 闲谈入口名称
+"nav.talk": "闲谈"
+
+# 独立入口 · 道在屎溺入口名称
+"nav.offbeat": "道在屎溺"
+
+# 我的桌面 · 栏目名称
+"category.all.label": "我的桌面"
+
+# 我的桌面 · 内容区标题
+"category.all.heading": "桌面上的东西"
+
+# 我的桌面 · 栏目说明
+"category.all.description": "从一份想读的资料，或一门感兴趣的课程开始。"
+
+# 学习资料 · 栏目名称
+"category.learning.label": "学习资料"
+
+# 学习资料 · 内容区标题
+"category.learning.heading": "翻一翻，学一点"
+
+# 学习资料 · 栏目说明
+"category.learning.description": "公开文档与参考资料；需要的时候，回来找它们。"
+
+# 课程资源 · 栏目名称
+"category.courses.label": "课程资源"
+
+# 课程资源 · 内容区标题
+"category.courses.heading": "给学习留点时间"
+
+# 课程资源 · 栏目说明
+"category.courses.description": "开放教材与课程入口，按自己的节奏往下学。"
+
+# RDKit 的第一站 · 卡片标题
+"resource.rdkit-guide.title": "RDKit 的第一站"
+
+# RDKit 的第一站 · 卡片介绍
+"resource.rdkit-guide.summary": "官方 Python 入门文档：分子的读写、绘制与基本操作。"
+
+# PyTorch 官方教程 · 卡片标题
+"resource.pytorch-tutorials.title": "PyTorch 官方教程"
+
+# PyTorch 官方教程 · 卡片介绍
+"resource.pytorch-tutorials.summary": "从基础概念和完整示例入手，边读边动手。"
+
+# 动手学深度学习 · 卡片标题
+"resource.d2l.title": "动手学深度学习"
+
+# 动手学深度学习 · 卡片介绍
+"resource.d2l.summary": "把概念、代码和练习放在一起的开放教材，中文版本可在线阅读。"
+
+# Missing Semester · 卡片标题
+"resource.missing-semester.title": "Missing Semester"
+
+# Missing Semester · 卡片介绍
+"resource.missing-semester.summary": "命令行、开发工具与工作流：给日常学习补一些实用的基本功。"
+
+# 关于我 · 标题
+"about.title": "Mr.Dhole（豺狼先生）"
+
+# 关于我 · 一句话介绍
+"about.summary": "学点东西，也找点乐子。"
+
+# 关于我 · 正文
+"about.body": |-
+  这里收集学习资料和课程入口。「闲谈」留给日常见闻与随笔，时事和乐子放在「道在屎溺」。
+
+  慢慢整理，慢慢长大。
+
+# 闲谈页面 · 返回按钮
+"talk.back": "回到小站"
+
+# 闲谈页面 · 页面标题
+"talk.title": "闲谈"
+
+# 闲谈页面 · 介绍文字
+"talk.intro": "所思所想"
+
+# 闲谈页面 · 空白页提示
+"talk.empty": "这里还没有文章，想到什么再慢慢写。"
+
+# 道在屎溺页面 · 返回按钮
+"offbeat.back": "回到小站"
+
+# 道在屎溺页面 · 介绍文字
+"offbeat.intro": "时事、闲话和乐子，先留个位置。"
+
+# 道在屎溺页面 · 补充文字
+"offbeat.aside": "还没想好，先不装了。"
+
+# 道在屎溺页面 · 页面标题
+"offbeat.title": "道在屎溺"
+
