@@ -1,0 +1,33 @@
+---
+layout: null
+---
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f4ef">
+  <meta name="description" content="Mr.Dhole（豺狼先生）的「道在屎溺」。时事、闲话与乐子的角落，慢慢构思中。">
+  <title>道在屎溺 · Mr.Dhole（豺狼先生）</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12' fill='%233757c8'/%3E%3Cpath d='M12 10h7c15 0 15 22 0 22h-7V10zm5 4v14h2c9 0 9-14 0-14h-2z' fill='white'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="../styles.css">
+  <script src="/copy-runtime.js" defer></script>
+  <script src="offbeat.js" defer></script>
+</head>
+<body class="offbeat-page">
+  <header class="topbar">
+    <a class="brand" href="../"><span class="brand-mark" aria-hidden="true">D<span>·</span></span><span data-shared="name">{{ site.data.zh["shared.name"] | escape | newline_to_br }}</span></a>
+    <div class="header-actions"><a class="about-link" href="../" data-offbeat-i18n="back">{{ site.data.zh["offbeat.back"] | escape | newline_to_br }}</a><div class="language-switch" role="group" aria-label="语言 / Language"><button type="button" data-language="zh" aria-pressed="true">中</button><span aria-hidden="true">/</span><button type="button" data-language="en" aria-pressed="false">EN</button></div></div>
+  </header>
+  <main class="offbeat-placeholder">
+    <span class="offbeat-mark" aria-hidden="true">✳</span>
+    <h1 data-offbeat-i18n="title">{{ site.data.zh["offbeat.title"] | escape | newline_to_br }}</h1>
+    <p class="offbeat-intro" data-offbeat-i18n="intro">{{ site.data.zh["offbeat.intro"] | escape | newline_to_br }}</p>
+    <p class="offbeat-aside" data-offbeat-i18n="aside">{{ site.data.zh["offbeat.aside"] | escape | newline_to_br }}</p>
+  </main>
+  {% assign notes = site.posts | where: "category", "offbeat" %}
+  {% if notes.size > 0 %}
+  <section class="offbeat-posts" aria-label="道在屎溺文章">{% include post-list.html posts=notes %}</section>
+  {% endif %}
+</body>
+</html>
