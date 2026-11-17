@@ -1,0 +1,32 @@
+---
+layout: null
+---
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f4ef">
+  <meta name="description" content="Mr.Dhole（豺狼先生）的闲谈：日常见闻与随手记下的想法。">
+  <title>闲谈 · Mr.Dhole（豺狼先生）</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12' fill='%233757c8'/%3E%3Cpath d='M12 10h7c15 0 15 22 0 22h-7V10zm5 4v14h2c9 0 9-14 0-14h-2z' fill='white'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="../styles.css">
+  <script src="/copy-runtime.js" defer></script>
+  <script src="talk.js" defer></script>
+</head>
+<body class="talk-page">
+  <header class="topbar">
+    <a class="brand" href="../"><span class="brand-mark" aria-hidden="true">D<span>·</span></span><span data-shared="name">{{ site.data.zh["shared.name"] | escape | newline_to_br }}</span></a>
+    <div class="header-actions"><a class="about-link" href="../" data-talk-i18n="back">{{ site.data.zh["talk.back"] | escape | newline_to_br }}</a><div class="language-switch" role="group" aria-label="语言 / Language"><button type="button" data-language="zh" aria-pressed="true">中</button><span aria-hidden="true">/</span><button type="button" data-language="en" aria-pressed="false">EN</button></div></div>
+  </header>
+  <main class="talk-main">
+    <header class="talk-heading"><p class="talk-kicker">MR.DHOLE / CASUAL NOTES</p><h1 data-talk-i18n="title">{{ site.data.zh["talk.title"] | escape | newline_to_br }}</h1><p class="talk-intro" data-talk-i18n="intro">{{ site.data.zh["talk.intro"] | escape | newline_to_br }}</p></header>
+    {% assign notes = site.posts | where: "category", "talk" %}
+    {% if notes.size > 0 %}
+    {% include post-list.html posts=notes %}
+    {% else %}
+    <div class="talk-empty"><span aria-hidden="true">◌</span><p data-talk-i18n="empty">{{ site.data.zh["talk.empty"] | escape | newline_to_br }}</p></div>
+    {% endif %}
+  </main>
+</body>
+</html>
