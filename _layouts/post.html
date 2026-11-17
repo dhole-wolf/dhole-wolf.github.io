@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="{{ page.lang | default: 'zh-CN' | escape }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f4ef">
+  <meta name="description" content="{{ page.description | default: page.excerpt | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  <title>{{ page.title | escape }} · {{ site.data.zh['shared.name'] | escape }}</title>
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
+</head>
+<body class="post-page">
+  {% if page.category == 'offbeat' %}
+    {% assign section_path = '/offbeat/' %}
+    {% assign section_name = site.data.zh['nav.offbeat'] %}
+  {% else %}
+    {% assign section_path = '/talk/' %}
+    {% assign section_name = site.data.zh['nav.talk'] %}
+  {% endif %}
+  <a class="skip-link" href="#article">跳至正文</a>
+  <header class="topbar">
+    <a class="brand" href="{{ '/' | relative_url }}"><span class="brand-mark" aria-hidden="true">D<span>·</span></span><span>{{ site.data.zh['shared.name'] | escape }}</span></a>
+    <a class="about-link" href="{{ section_path | relative_url }}">← {{ section_name | escape }}</a>
+  </header>
+  <main class="post-main" id="article">
+    <article>
+      <header class="post-heading">
+        <p class="talk-kicker">{{ section_name | escape }} · <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%Y.%m.%d' }}</time></p>
+        <h1>{{ page.title | escape }}</h1>
+        {% if page.description %}<p class="talk-intro">{{ page.description | escape }}</p>{% endif %}
+      </header>
+      <div class="post-content">{{ content }}</div>
+    </article>
+    <footer class="post-footer"><a href="{{ section_path | relative_url }}">← 回到{{ section_name | escape }}</a><a href="{{ '/' | relative_url }}">回到小站</a></footer>
+  </main>
+</body>
+</html>
