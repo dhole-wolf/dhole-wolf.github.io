@@ -1,0 +1,194 @@
+# 网站文字。只修改冒号后面的文字，保留左侧的名称。
+# 多行文字缩进两个空格；段落之间可以留空行。
+
+# 界面提示 · 跳至内容链接
+"home.skip": "Skip to content"
+
+# 站名与简介 · 页头站名
+"home.siteName": "Mr.Dhole’s little corner"
+
+# 站名与简介 · 页头说明
+"home.brandCaption": "A small place on the internet"
+
+# 站名与简介 · 关于我入口
+"home.about": "About me"
+
+# 站名与简介 · 个人简介
+"home.profileNote": |-
+  Learn a little.
+  Have a little fun.
+
+# 站名与简介 · 导航上方文字
+"home.navigationLabel": "TAKE A LOOK AROUND"
+
+# 站名与简介 · 左侧底部文字
+"home.sidebarNote": "A work in progress. Stay curious."
+
+# 开场 · 开场上方小字
+"home.welcomeLabel": "HELLO, WORLD / MAKE YOURSELF AT HOME"
+
+# 开场 · 开场大标题
+"home.greeting": |-
+  Hey, I’m
+  Mr.Dhole.
+
+# 开场 · 开场介绍
+"home.welcomeCopy": |-
+  Also known as 豺狼先生.
+  A little learning, a little nonsense.
+
+# 开场 · 开场关键词
+"home.welcomeTopics": "Learning · Courses · 道在屎溺"
+
+# 开场 · 浏览内容按钮
+"home.browse": "Have a look around"
+
+# 开场 · 插画下方文字
+"home.deskCaption": "A little desk for a bit of everything."
+
+# 界面提示 · 搜索框说明
+"home.searchLabel": "Search learning resources and courses"
+
+# 界面提示 · 清除搜索按钮
+"home.clearSearch": "Clear"
+
+# 书签与侧栏 · 书签区标题
+"home.bookmarksTitle": "Bookmarks"
+
+# 书签与侧栏 · 书签区说明
+"home.bookmarksDescription": "Public resources, ready to open"
+
+# 书签与侧栏 · RDKit 书签说明
+"home.rdkitLabel": "Python introduction"
+
+# 书签与侧栏 · PyTorch 书签说明
+"home.pytorchLabel": "Official tutorials"
+
+# 书签与侧栏 · D2L 书签名称
+"home.d2lLabel": "Dive into Deep Learning"
+
+# 书签与侧栏 · D2L 书签说明
+"home.openBook": "Open textbook"
+
+# 书签与侧栏 · 右侧底部文字
+"home.littleNote": |-
+  Some things need a closer look.
+  Others are just here for fun.
+
+# 站名与简介 · 页脚说明
+"home.footerText": "A little corner, still growing"
+
+# 界面提示 · 回到开场按钮
+"home.backTop": "Back to the opening"
+
+# 界面提示 · 关闭阅读按钮
+"home.close": "Close"
+
+# 站名与简介 · 显示名字
+"shared.name": "Mr.Dhole"
+
+# 站名与简介 · 别名
+"shared.alias": "豺狼先生"
+
+# 页面标题 · 浏览器标签标题
+"home.metaTitle": "Mr.Dhole’s little corner"
+
+# 页面标题 · 网页简介
+"home.metaDescription": "Mr.Dhole’s personal space for learning resources, open courses, casual notes, and an offbeat corner called 道在屎溺."
+
+# 界面提示 · 搜索框占位文字
+"home.searchPlaceholder": "Looking for something? Try Python…"
+
+# 独立入口 · 闲谈入口名称
+"nav.talk": "Casual notes"
+
+# 独立入口 · 道在屎溺入口名称
+"nav.offbeat": "道在屎溺"
+
+# 我的桌面 · 栏目名称
+"category.all.label": "My desk"
+
+# 我的桌面 · 内容区标题
+"category.all.heading": "Things on the desk"
+
+# 我的桌面 · 栏目说明
+"category.all.description": "Start with something to read, or a course to explore."
+
+# 学习资料 · 栏目名称
+"category.learning.label": "Learning"
+
+# 学习资料 · 内容区标题
+"category.learning.heading": "A little more to learn"
+
+# 学习资料 · 栏目说明
+"category.learning.description": "Public documentation and references to return to when needed."
+
+# 课程资源 · 栏目名称
+"category.courses.label": "Courses"
+
+# 课程资源 · 内容区标题
+"category.courses.heading": "Make time for learning"
+
+# 课程资源 · 栏目说明
+"category.courses.description": "Open textbooks and courses, to explore at your own pace."
+
+# RDKit 的第一站 · 卡片标题
+"resource.rdkit-guide.title": "Getting started with RDKit"
+
+# RDKit 的第一站 · 卡片介绍
+"resource.rdkit-guide.summary": "The official Python introduction: reading, writing, drawing, and working with molecules."
+
+# PyTorch 官方教程 · 卡片标题
+"resource.pytorch-tutorials.title": "PyTorch tutorials"
+
+# PyTorch 官方教程 · 卡片介绍
+"resource.pytorch-tutorials.summary": "Official tutorials and examples for hands-on learning with PyTorch."
+
+# 动手学深度学习 · 卡片标题
+"resource.d2l.title": "Dive into Deep Learning"
+
+# 动手学深度学习 · 卡片介绍
+"resource.d2l.summary": "An open textbook combining concepts, code, and exercises. This link opens the Chinese edition."
+
+# Missing Semester · 卡片标题
+"resource.missing-semester.title": "The Missing Semester"
+
+# Missing Semester · 卡片介绍
+"resource.missing-semester.summary": "Practical lessons in command-line tools, development tools, and workflows."
+
+# 关于我 · 标题
+"about.title": "Mr.Dhole（豺狼先生）"
+
+# 关于我 · 一句话介绍
+"about.summary": "Learn a little. Have a little fun."
+
+# 关于我 · 正文
+"about.body": |-
+  A place for learning resources and courses. Casual notes is for everyday observations and little reflections. Perspectives and fun have a room of their own, called 道在屎溺.
+
+  Taking shape, a little at a time.
+
+# 闲谈页面 · 返回按钮
+"talk.back": "Back to the homepage"
+
+# 闲谈页面 · 页面标题
+"talk.title": "Casual notes"
+
+# 闲谈页面 · 介绍文字
+"talk.intro": "Everyday observations, jotted down."
+
+# 闲谈页面 · 空白页提示
+"talk.empty": "No notes here yet. Something will come to mind."
+
+# 道在屎溺页面 · 返回按钮
+"offbeat.back": "Back to the homepage"
+
+# 道在屎溺页面 · 介绍文字
+"offbeat.intro": "A place for perspectives, idle talk, and fun."
+
+# 道在屎溺页面 · 补充文字
+"offbeat.aside": "Still figuring it out. No grand claims just yet."
+
+# 道在屎溺页面 · 页面标题
+"offbeat.title": "道在屎溺"
+
