@@ -1,0 +1,21 @@
+title: "Mr.Dhole（豺狼先生）的休憩处"
+url: "https://dhole-wolf.github.io"
+baseurl: ""
+lang: zh-CN
+timezone: America/Los_Angeles
+markdown: kramdown
+permalink: /notes/:year/:month/:day/:title/
+future: false
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      category: talk
+      lang: zh-CN
+exclude:
+  - README.md
+  - docs
+  - Gemfile
+  - Gemfile.lock

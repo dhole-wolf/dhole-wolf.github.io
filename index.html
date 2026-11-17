@@ -1,0 +1,58 @@
+---
+layout: null
+---
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f5f4ef">
+  <meta name="description" content="{{ site.data.zh['home.metaDescription'] | escape }}">
+  <title>{{ site.data.zh["home.metaTitle"] | escape }}</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12' fill='%233757c8'/%3E%3Cpath d='M12 10h7c15 0 15 22 0 22h-7V10zm5 4v14h2c9 0 9-14 0-14h-2z' fill='white'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script src="/copy-runtime.js" defer></script>
+  <script src="content.js" defer></script>
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#collection" data-i18n="skip">{{ site.data.zh["home.skip"] | escape | newline_to_br }}</a>
+  <header class="topbar">
+    <a class="brand" href="#home"><span class="brand-mark" aria-hidden="true">D<span>·</span></span><span data-i18n="siteName">{{ site.data.zh["home.siteName"] | escape | newline_to_br }}</span><span class="brand-caption" data-i18n="brandCaption">{{ site.data.zh["home.brandCaption"] | escape | newline_to_br }}</span></a>
+    <div class="header-actions"><a class="about-link" href="#about" data-i18n="about">{{ site.data.zh["home.about"] | escape | newline_to_br }}</a><div class="language-switch" role="group" aria-label="语言 / Language"><button type="button" data-language="zh" aria-pressed="true">中</button><span aria-hidden="true">/</span><button type="button" data-language="en" aria-pressed="false">EN</button></div></div>
+  </header>
+  <div class="site-layout">
+    <aside class="sidebar">
+      <div class="sidebar-inner">
+        <div class="profile"><div class="monogram" aria-hidden="true">md<span>✳</span></div><p class="profile-name" data-shared="name">{{ site.data.zh["shared.name"] | escape | newline_to_br }}</p><p class="profile-handle" data-shared="alias">{{ site.data.zh["shared.alias"] | escape | newline_to_br }}</p><p class="profile-note" data-i18n="profileNote">{{ site.data.zh["home.profileNote"] | escape | newline_to_br }}</p></div>
+        <p class="small-label sidebar-label" data-i18n="navigationLabel">{{ site.data.zh["home.navigationLabel"] | escape | newline_to_br }}</p>
+        <nav id="category-nav" aria-label="内容栏目"><a class="nav-link" href="talk/">{{ site.data.zh["nav.talk"] | escape }}</a><a class="nav-link offbeat-nav" href="offbeat/">{{ site.data.zh["nav.offbeat"] | escape }}</a></nav>
+        <div class="sidebar-bottom"><span class="status-dot" aria-hidden="true"></span><span data-i18n="sidebarNote">{{ site.data.zh["home.sidebarNote"] | escape | newline_to_br }}</span></div>
+      </div>
+    </aside>
+    <main class="workspace" id="main">
+      <section class="welcome" aria-labelledby="welcome-title">
+        <div class="welcome-copy"><p class="eyebrow"><span aria-hidden="true">✳</span><span data-i18n="welcomeLabel">{{ site.data.zh["home.welcomeLabel"] | escape | newline_to_br }}</span></p><h1 id="welcome-title" data-i18n="greeting">{{ site.data.zh["home.greeting"] | escape | newline_to_br }}</h1><p class="welcome-description" data-i18n="welcomeCopy">{{ site.data.zh["home.welcomeCopy"] | escape | newline_to_br }}</p><p class="welcome-topics" data-i18n="welcomeTopics">{{ site.data.zh["home.welcomeTopics"] | escape | newline_to_br }}</p><a href="#collection" class="browse-link"><span data-i18n="browse">{{ site.data.zh["home.browse"] | escape | newline_to_br }}</span></a></div>
+        <figure class="desk-figure"><img src="desk.png" width="1254" height="1254" alt="一张迷你木书桌，上面有蓝色电脑、书、橙色杯子、分子模型和绿植" fetchpriority="high"><figcaption data-i18n="deskCaption">{{ site.data.zh["home.deskCaption"] | escape | newline_to_br }}</figcaption></figure>
+      </section>
+      <div class="content-layout">
+        <section class="collection" id="collection" aria-labelledby="collection-title" tabindex="-1">
+          <div class="collection-heading"><div><p class="small-label" id="collection-eyebrow">ON THE DESK</p><h2 id="collection-title">{{ site.data.zh["category.all.heading"] | escape }}</h2></div><span class="collection-count" id="collection-count" aria-live="polite"></span></div>
+          <p class="collection-description" id="collection-description">{{ site.data.zh["category.all.description"] | escape }}</p>
+          <form class="search-form" role="search" id="search-form"><span aria-hidden="true" class="search-icon">⌕</span><label for="search" class="visually-hidden" data-i18n="searchLabel">{{ site.data.zh["home.searchLabel"] | escape | newline_to_br }}</label><input id="search" type="search" autocomplete="off" placeholder="{{ site.data.zh['home.searchPlaceholder'] | escape }}"><button type="button" id="clear-search" hidden data-i18n="clearSearch">{{ site.data.zh["home.clearSearch"] | escape | newline_to_br }}</button><kbd aria-hidden="true">/</kbd></form>
+          <div class="filter-row" id="filter-row" aria-label="筛选栏目"></div>
+          <div id="content-grid" class="content-grid"></div>
+          <noscript><p class="noscript-note">请启用 JavaScript 使用分类和搜索。也可以直接访问 <a href="https://www.rdkit.org/docs/GettingStartedInPython.html">RDKit 文档</a>、<a href="https://docs.pytorch.org/tutorials/">PyTorch 教程</a>、<a href="https://zh.d2l.ai/">动手学深度学习</a>。</p></noscript>
+        </section>
+        <aside class="desk-side" aria-label="桌边信息">
+          <section class="bookmarks"><div class="side-heading"><h2 data-i18n="bookmarksTitle">{{ site.data.zh["home.bookmarksTitle"] | escape | newline_to_br }}</h2><span aria-hidden="true">↗</span></div><p class="side-description" data-i18n="bookmarksDescription">{{ site.data.zh["home.bookmarksDescription"] | escape | newline_to_br }}</p><a href="https://www.rdkit.org/docs/GettingStartedInPython.html" target="_blank" rel="noopener noreferrer"><span class="bookmark-symbol blue" aria-hidden="true">R</span><span><strong>RDKit</strong><small data-i18n="rdkitLabel">{{ site.data.zh["home.rdkitLabel"] | escape | newline_to_br }}</small></span><span class="external-arrow" aria-hidden="true">↗</span></a><a href="https://docs.pytorch.org/tutorials/" target="_blank" rel="noopener noreferrer"><span class="bookmark-symbol coral" aria-hidden="true">P</span><span><strong>PyTorch</strong><small data-i18n="pytorchLabel">{{ site.data.zh["home.pytorchLabel"] | escape | newline_to_br }}</small></span><span class="external-arrow" aria-hidden="true">↗</span></a><a href="https://zh.d2l.ai/" target="_blank" rel="noopener noreferrer"><span class="bookmark-symbol green" aria-hidden="true">D</span><span><strong data-i18n="d2lLabel">{{ site.data.zh["home.d2lLabel"] | escape | newline_to_br }}</strong><small data-i18n="openBook">{{ site.data.zh["home.openBook"] | escape | newline_to_br }}</small></span><span class="external-arrow" aria-hidden="true">↗</span></a></section>
+          <div class="little-note"><span aria-hidden="true">✳</span><p data-i18n="littleNote">{{ site.data.zh["home.littleNote"] | escape | newline_to_br }}</p></div>
+        </aside>
+      </div>
+      <footer class="site-footer"><span><span data-shared="name">{{ site.data.zh["shared.name"] | escape | newline_to_br }}</span> <span class="orange" aria-hidden="true">✳</span> <span data-i18n="footerText">{{ site.data.zh["home.footerText"] | escape | newline_to_br }}</span></span><a href="#home" data-i18n="backTop">{{ site.data.zh["home.backTop"] | escape | newline_to_br }}</a></footer>
+    </main>
+  </div>
+  <dialog id="reader" aria-labelledby="reader-title"><div class="reader-toolbar"><span id="reader-category"></span><button type="button" id="close-reader" aria-label="关闭阅读"><span data-i18n="close">{{ site.data.zh["home.close"] | escape | newline_to_br }}</span><span aria-hidden="true">×</span></button></div><article class="reader-body"><p class="reader-kicker" id="reader-kicker"></p><h2 id="reader-title" tabindex="-1"></h2><p class="reader-summary" id="reader-summary"></p><div id="reader-content"></div></article></dialog>
+</body>
+</html>
